@@ -1,0 +1,12 @@
+version: 3
+endpoint: https://driving-mallard-48.hasura.app
+
+metadata_directory: metadata
+migrations_directory: migrations
+seeds_directory: seeds
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: https://driving-mallard-48.hasura.app
+  codegen:
+    framework: ""
+    output_dir: ""
